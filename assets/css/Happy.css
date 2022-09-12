@@ -1,0 +1,67 @@
+body {
+        max-width: 90%;
+        min-width: 10%;
+        max-height: 95%;
+        background-color: rgb(109, 189, 250);
+        margin: auto;
+       
+}
+        
+header{text-align: center;}
+
+img {
+padding: 10%;        
+display:block;
+margin:auto;
+min-width: 10%;
+max-width: 80%;
+height: auto;
+border-radius: 50%;
+margin-top: 40px;
+
+}
+
+figcaption {
+        font-size: 180%;
+        text-align: center;
+       text-decoration: underline;
+}
+.heading {
+        border: 10px;
+        text-align: center;
+        
+}
+
+.mainHeader {
+        background-color: azure;
+        border-radius: 25%;
+        text-align: center;        
+        padding:0 ;
+        width: 100%;
+        margin: auto;
+}
+
+h1 {
+        font-size: 400% ;
+}
+
+.travel {
+        margin: 10%;
+        display: flex;
+      }
+      
+.model {
+        margin: 10%;
+        display: flex;
+      }
+           
+.col {
+        flex:auto;
+        padding: 5px;
+      }
+.love {
+        text-align: center;
+        font-size: 400%;
+        color: red;
+}
+
