@@ -11,80 +11,58 @@
 <body>
 
 
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-          apiKey: "AIzaSyD5WnGwFbGQembC3cTREyJAcc1YOql1NDY",
-          authDomain: "cellyfirstwebsite.firebaseapp.com",
-          projectId: "cellyfirstwebsite",
-          storageBucket: "cellyfirstwebsite.appspot.com",
-          messagingSenderId: "513406610573",
-          appId: "1:513406610573:web:3a0e99dfae072704ad06c4",
-          measurementId: "G-6G5RJ6SEN6"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-      </script>
-
-
-
-
-
    <div class="heading">
-    <div class="topnav">
+     <div class="topnav">
         <a class="active" href="/Index.html">Home</a>
         <a class="active" href="/assets/pages/Happy.html">Happy</a>
         <a class="active" href="/assets/pages/Sunny.html">Sunny</a>
         <a class="active" href="/assets/pages/Eating.html">Eating</a>
         <a class="active" href="/assets/pages/Model.html">Model</a>
         <a class="active" href="/assets/pages/Travel.html">Travel</a>
-    </div>
+     </div>
     </div>
      <header>
         <div class="mainHeader"><h1>Marcielly Munitona</h1></div>
         <h2>O que dizer sobre meu nenem?</h2>
      </header>
     
-    <div>
-     <article>
-        <a href="/assets/pages/Happy.html" ><img id="happy" src="https://am3pap002files.storage.live.com/y4mriUZiocpl7HS4HdkzrXmckRV4v2m0kIimHJPuFlcDml7Aox314LUHCKLBN9p0rF2jLQzv4cBxGr0b4PJ2CMPIfwBn_qknj19RZssifazwqQsJL85fOkzIE52Swtp5_CW1Slg3pwKG_b0F4Lb_FnIEZi-zp5WAOF1WegLvP9zvVd5O4DUUUQ7yEJLNEnJGrkO?width=2016&height=954&cropmode=none"  /> </a>
-        <figcaption id="happy">Happy Celly!</figcaption>
-     </article>
-    </div>
-    <div class="sunny">
-        <a href="/assets/pages/Sunny.html" ><img id="sunny" src="/assets/img/brilho1.jpg" alt="Celly in the sun"></a>
-        <figcaption id="sunny">Celly in the sun!</figcaption>
-    </div> 
-    <div class="eating">
-        <a href="/assets/pages/Eating.html"><img id="eating" src="/assets/img/eating.jpg" alt="Celly eating"></div></a>
-        <figcaption id="eating">Celly eating!</figcaption>
-    </div>
-    <div class="model">
+    <div class="gallery">
+
+     <div id="happy">      
+        <a href="/assets/pages/Happy.html" ><img id="happymain" src="https://am3pap002files.storage.live.com/y4mriUZiocpl7HS4HdkzrXmckRV4v2m0kIimHJPuFlcDml7Aox314LUHCKLBN9p0rF2jLQzv4cBxGr0b4PJ2CMPIfwBn_qknj19RZssifazwqQsJL85fOkzIE52Swtp5_CW1Slg3pwKG_b0F4Lb_FnIEZi-zp5WAOF1WegLvP9zvVd5O4DUUUQ7yEJLNEnJGrkO?width=2016&height=954&cropmode=none"  /> </a>
+        <figcaption id="happymain">Happy Celly!</figcaption>
+     </div>
+
+     <div id="sunny">
+        <a href="/assets/pages/Sunny.html" ><img id="sunnymain" src="/assets/img/brilho1.jpg" alt="Celly in the sun"></a>
+        <figcaption id="sunnymain">Celly in the sun!</figcaption>
+     </div> 
+
+     <div id="eating">
+        <a href="/assets/pages/Eating.html"><img id="eatingmain" src="/assets/img/eating.jpg" alt="Celly eating"></a>
+        <figcaption id="eatingmain">Celly eating!</figcaption>
+     </div>
+
+     <div id="model">
+        <a href="/assets/pages/Model.html"><img id="modelmain" src="/assets/img/model1.jpg" alt="Modelo"></a>
+        <figcaption id="modelmain">Celly modelo!</figcaption>
+     </div>
+
+     <div id="travel">
         <div class="col">
-            <a href="/assets/pages/Model.html"><img id="model1" src="/assets/img/model1.jpg" alt="Modelo"></a>
-            <figcaption id="model1">Celly modelo!</figcaption>
-        </div>
+        <a href="/assets/pages/Travel.html"> <img id="travelmain" src="/assets/img/Travel1.jpg" alt="Celly travelling"></a>
+         <figcaption id="travelmain">Travelling!</figcaption></div>  
+     </div>
+
     </div>
 
-    <div class="travel">
-        <div class="col">
-            <a href="/assets/pages/Travel.html"> <img id="travel1" src="/assets/img/Travel1.jpg" alt="Celly travelling"></a>
-         <figcaption id="">Travelling!</figcaption>
-        </div>  
-    </div>
+    
+    
 
-     <div class="love"><p>Love You!</p></div>
+    <div class="love"><p>Love You!</p></div>
 
-     <footer>
+    <footer>
+        
         <div>
             <p>Copyright Marcielly 2022</p>
         </div>
